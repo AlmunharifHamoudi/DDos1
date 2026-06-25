@@ -1,3 +1,4 @@
+
 🛡️ DDoS Stress Testing Tool
 
 ---
@@ -47,7 +48,7 @@ Feature Description
 
 📦 Installation
 
-Termux Installation Commands:
+📱 Termux Installation:
 
 Copy and run each command one by one:
 
@@ -89,6 +90,48 @@ python DDos.py
 
 ---
 
+🐧 Kali Linux / Linux Installation:
+
+Copy and run each command one by one:
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt upgrade -y
+```
+
+```bash
+sudo apt install git -y
+```
+
+```bash
+sudo apt install python3 -y
+```
+
+```bash
+sudo apt install python3-pip -y
+```
+
+```bash
+git clone https://github.com/AlmunharifHamoudi/DDos1.git
+```
+
+```bash
+cd DDos1
+```
+
+```bash
+sudo pip3 install -r requirements.txt
+```
+
+```bash
+sudo python3 DDos.py
+```
+
+---
+
 🚀 Usage
 
 Interactive Mode:
@@ -115,13 +158,19 @@ Parameters:
 
 Examples:
 
+SYN Flood attack for 60 seconds:
+
 ```bash
 python DDos.py -t example.com -p 443 -m syn -t 60
 ```
 
+UDP Flood with 500 threads:
+
 ```bash
 python DDos.py -t 192.168.1.1 -p 53 -m udp -th 500 -t 30
 ```
+
+HTTP Flood:
 
 ```bash
 python DDos.py -t mysite.com -p 80 -m http -t 120
@@ -164,8 +213,16 @@ colorama
 
 Install requirements manually if needed:
 
+Termux:
+
 ```bash
 pip install scapy requests colorama termcolor
+```
+
+Kali Linux / Linux:
+
+```bash
+sudo pip3 install scapy requests colorama termcolor
 ```
 
 ---
