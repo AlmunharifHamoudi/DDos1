@@ -1,168 +1,178 @@
-Here’s a beautifully formatted English README.md for your powerful DDoS testing tool, including the commands you provided, separated per line, with Kali Linux and Termux instructions, and a disclaimer:
+⚠️ DDOS-ATTACK ⚠️
 
-```markdown
-# ⚡ DDos1 - Advanced DDoS Testing Tool ⚡
+🚨 WARNING: EXTREMELY POWERFUL & DANGEROUS TOOL 🚨
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Kali%20Linux%20%7C%20Termux-red?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Extremely%20Dangerous-critical?style=flat-square)
+<div align="center">
 
-> **🔴 WARNING: EXTREMELY POWERFUL & DANGEROUS TOOL 🔴**
->
-> This tool was developed by **</> Извращенец** for **authorized security testing purposes only**. It is designed to test the resilience and stability of **your own websites/servers**. The developer assumes **NO responsibility** for any misuse, damage, or illegal activities conducted with this tool. **Use at your own risk. Misuse may lead to severe legal consequences.**
+🔥 DEVELOPED BY: </> Извращенец 🔥
 
----
+https://img.shields.io/badge/version-3.0-red
+https://img.shields.io/badge/platform-Kali%20Linux%20%7C%20Termux-blue
+https://img.shields.io/badge/status-DANGEROUS-critical
 
-## 🔥 About The Tool
-
-`DDos1` is an exceptionally powerful and advanced DDoS attack simulation tool crafted with precision. It is intended for security professionals and system administrators to stress-test their infrastructure under controlled and authorized conditions. Its raw power makes it extremely dangerous if used improperly.
+</div>
 
 ---
 
-## 💀 Features
+📌 DISCLAIMER
 
-- 🚀 **Ultra-Fast Multi-Vector Attacks**
-- 🌊 **Massive Concurrent Connection Flooding**
-- ⚙️ **Highly Optimized for Maximum Impact**
-- 🛡️ **Bypass Capable (on vulnerable targets)**
-- 🎯 **Precision Targeting for Stress Testing**
-- 📱 **Works on Kali Linux (Root) & Termux**
+THIS TOOL IS CREATED FOR EDUCATIONAL PURPOSES ONLY!
 
----
-
-## 📋 Prerequisites
-
-- **Kali Linux** (with `sudo` privileges) **OR** **Termux** (Android)
-- **Python 3** installed
-- **Git** installed
-- A stable internet connection
-- **EXPLICIT WRITTEN PERMISSION** to test the target infrastructure
+· Use this tool ONLY on your own servers/websites for testing purposes
+· The developer </> Извращенец is NOT RESPONSIBLE for any illegal or malicious use
+· Unauthorized DDoS attacks are ILLEGAL in most countries
+· You are SOLELY RESPONSIBLE for your actions
+· This is a POWERFUL tool that can cause SERIOUS DAMAGE
 
 ---
 
-## 🛠️ Installation Commands
+🛠️ INSTALLATION GUIDE
 
-### 🔹 For Kali Linux (Run as sudo/root)
-
-Execute each command **one by one**:
+🔹 For Kali Linux (with sudo privileges)
 
 ```bash
-sudo apt update
+$ sudo apt update && sudo apt upgrade -y
 ```
 
 ```bash
-sudo apt upgrade -y
+$ sudo apt install git -y
 ```
 
 ```bash
-sudo apt install git -y
+$ sudo apt install python3 -y
 ```
 
 ```bash
-sudo apt install python3 -y
+$ sudo apt install python -y
 ```
 
 ```bash
-sudo apt install python3-pip -y
+$ git clone https://github.com/AlmunharifHamoudi/DDos1.git
 ```
 
 ```bash
-git clone https://github.com/AlmunharifHamoudi/DDos1.git
+$ cd DDos1
 ```
 
 ```bash
-cd DDos1
+$ pip install -r requirements.txt
 ```
 
 ```bash
-pip3 install -r requirements.txt
+$ python3 DDos.py
 ```
+
+---
 
 🔹 For Termux (Android)
 
-Execute each command one by one:
-
 ```bash
-pkg update && pkg upgrade -y
+$ pkg update && pkg upgrade -y
 ```
 
 ```bash
-pkg install git -y
+$ pkg install git -y
 ```
 
 ```bash
-pkg install python3 -y
+$ pkg install python3 -y
 ```
 
 ```bash
-pkg install python -y
+$ pkg install python -y
 ```
 
 ```bash
-git clone https://github.com/AlmunharifHamoudi/DDos1.git
+$ git clone https://github.com/AlmunharifHamoudi/DDos1.git
 ```
 
 ```bash
-cd DDos1
+$ cd DDos1
 ```
 
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
+```
+
+```bash
+$ python DDos.py
 ```
 
 ---
 
-⚡ Usage
+⚡ FEATURES
 
-Once installed, run the tool with:
+Feature Description
+🚀 ULTRA FAST Optimized for maximum attack speed
+💥 MULTI-THREADING Uses multiple threads for powerful attacks
+🎯 PRECISE TARGETING Accurate IP and port targeting
+🔄 AUTO-RECOVERY Self-healing connection system
+🛡️ BYpass Protections Advanced techniques to bypass basic security
+📊 REAL-TIME STATS Live attack statistics display
+🌐 PROXY SUPPORT Optional proxy rotation support
+
+---
+
+📝 USAGE
+
+After installation, simply run:
 
 ```bash
-python DDos.py
+$ python DDos.py
 ```
 
-Follow the on-screen prompts to enter the target details and attack parameters.
-
-⚠️ Remember: Only use this against servers you OWN or have explicit, documented authorization to test. Unauthorized DDoS attacks are a federal crime in most countries.
+Follow the interactive prompts to configure your attack parameters.
 
 ---
 
-⚖️ Legal Disclaimer
+⚙️ REQUIREMENTS
 
-```
-THIS TOOL IS PROVIDED FOR EDUCATIONAL AND LEGITIMATE SECURITY TESTING PURPOSES ONLY.
-
-THE DEVELOPER (</> Извращенец) HEREBY DISCLAIMS ANY AND ALL LIABILITY FOR:
-
-- UNAUTHORIZED USE OF THIS SOFTWARE
-- DAMAGE CAUSED TO SYSTEMS OR NETWORKS
-- ILLEGAL ACTIVITIES CONDUCTED BY USERS
-- ANY CONSEQUENCES ARISING FROM MISUSE
-
-BY USING THIS TOOL, YOU AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR YOUR ACTIONS
-AND WILL ADHERE TO ALL APPLICABLE LAWS AND REGULATIONS.
-
-IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, OR USE THIS SOFTWARE.
-```
+· Python 3.x
+· Active internet connection
+· Required Python packages (auto-installed via requirements.txt)
+· Root/Administrator privileges (recommended for best performance)
 
 ---
 
-👨‍💻 Developer
+⚠️ LEGAL NOTICE
 
-</> Извращенец
+<div align="center">
 
-"Power is a double-edged sword. Wield it wisely, or don't wield it at all."
+🛑 USE AT YOUR OWN RISK! 🛑
+
+The developer is NOT responsible for:
+
+· Illegal activities
+· Damage to websites/servers
+· Legal consequences
+· Any misuse of this tool
+
+By using this tool, you agree that:
+
+· You will only use it on your own property
+· You understand the legal implications
+· You accept full responsibility for your actions
+
+</div>
 
 ---
 
-⭐ Show Your Support
+📞 CONTACT
 
-If this tool helps you secure your infrastructure, give it a ⭐ on GitHub and share it with fellow ethical hackers and security researchers.
+· Developer: </> Извращенец
+· GitHub: AlmunharifHamoudi
+· Repository: DDos1
 
 ---
 
-💣 Stay Ethical. Stay Legal. 💣
+<div align="center">
 
-```
+⭐ STAR THIS REPO IF YOU FIND IT USEFUL FOR EDUCATIONAL PURPOSES ⭐
 
-This README is comprehensive, visually striking with badges and sections, ethically responsible, and includes every command you listed, separated clearly for both Kali Linux and Termux usage.
+🔒 STAY SAFE, STAY LEGAL, STAY RESPONSIBLE 🔒
+
+</div>
+
+---
+
+Last Updated: 2026
