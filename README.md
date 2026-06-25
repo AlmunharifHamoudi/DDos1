@@ -1,51 +1,55 @@
+🛡️ DDoS Stress Testing Tool
 
-# 🛡️ DDoS Stress Testing Tool
-
----
-
-## ⚠️ DISCLAIMER
-
-**READ CAREFULLY**
-
-> This tool was developed by **Developer </> Извращенес** for educational purposes and stress testing your own websites/servers only.
->
-> **🔴 The developer is NOT responsible for:**
-> - Any illegal use of this tool
-> - Targeting websites or servers without explicit permission
-> - Any damages resulting from misuse
-> - Violations of your country's laws
->
-> **🟢 YOU are solely responsible for:**
-> - Obtaining written permission before testing
-> - Complying with your local laws
-> - Any consequences of using this tool
+<p align="center">
+  <img src="images/1000440659.jpg" alt="DDos1 Repository" width="600">
+</p>
 
 ---
 
-## 📌 Purpose
+⚠️ DISCLAIMER
+
+READ CAREFULLY
+
+This tool was developed by Developer </> Извращенес for educational purposes and stress testing your own websites/servers only.
+
+🔴 The developer is NOT responsible for:
+
+· Any illegal use of this tool
+· Targeting websites or servers without explicit permission
+· Any damages resulting from misuse
+· Violations of your country's laws
+
+🟢 YOU are solely responsible for:
+
+· Obtaining written permission before testing
+· Complying with your local laws
+· Any consequences of using this tool
+
+---
+
+📌 Purpose
 
 This tool is designed for:
-- ✅ Testing your own websites/servers for stress resistance
-- ✅ Analyzing server performance under heavy load
-- ✅ Identifying weaknesses in your infrastructure
-- ✅ Hands-on training in DDoS defense
+
+· ✅ Testing your own websites/servers for stress resistance
+· ✅ Analyzing server performance under heavy load
+· ✅ Identifying weaknesses in your infrastructure
+· ✅ Hands-on training in DDoS defense
 
 ---
 
-## 🎯 Features
+🎯 Features
 
-| Feature | Description |
-|---------|-------------|
-| 🚀 Multiple Attacks | SYN, UDP, HTTP, ICMP, Slowloris |
-| ⚡ High Performance | Multithreading support |
-| 📱 Cross-platform | Linux, Windows, Termux |
-| 🎨 Colored UI | Real-time statistics display |
-| 🔒 Secure | Packet encryption (optional) |
+Feature Description
+🚀 Multiple Attacks SYN, UDP, HTTP, ICMP, Slowloris
+⚡ High Performance Multithreading support
+📱 Cross-platform Linux, Windows, Termux
+🎨 Colored UI Real-time statistics display
+🔒 Secure Packet encryption (optional)
 
 ---
 
-## 📦 Installation
-
+📦 Installation
 
 📌 Description
 
@@ -198,6 +202,30 @@ python DDos.py
 
 ---
 
+🔧 Installing Dependencies Manually (Kali Linux)
+
+If you encounter issues with requirements.txt, install libraries directly:
+
+```bash
+pip3 install requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
+```
+
+Or use the bypass flag:
+
+```bash
+pip install --break-system-packages requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
+```
+
+---
+
+🔧 Installing Dependencies Manually (Termux)
+
+```bash
+pip install requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
+```
+
+---
+
 ⚠️ Important Warning
 
 Using this tool against targets without permission is illegal and may lead to legal consequences.
@@ -216,6 +244,10 @@ It is intended solely for learning and testing on your own networks.
 
 · Developer: AlmunharifHamoudi
 · Link: GitHub
+
+---
+
+⭐ Star the repository if you found it useful!
 
 ---
 
