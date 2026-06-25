@@ -1,4 +1,4 @@
-عدل ع ه
+
 # 🛡️ DDoS Stress Testing Tool
 
 ---
@@ -46,11 +46,177 @@ This tool is designed for:
 
 ## 📦 Installation
 
-### Termux:
+
+📌 Description
+
+This tool is intended for educational purposes and ethical penetration testing only.
+Developed by AlmunharifHamoudi on GitHub.
+
+---
+
+⚙️ Requirements
+
+· Linux system (Kali / Ubuntu / Debian)
+· Or Termux on Android
+· Internet connection
+
+---
+
+📦 Installation Steps (Kali Linux - with sudo)
+
 ```bash
-pkg update && pkg upgrade
-pkg install python git
-git clone https://github.com/izvrashchenets/ddos-tool.git
-cd ddos-tool
+sudo apt update && sudo apt upgrade -y
+```
+
+```bash
+sudo apt install git -y
+```
+
+```bash
+sudo apt install python3 -y
+```
+
+```bash
+sudo apt install python3-pip -y
+```
+
+```bash
+git clone https://github.com/AlmunharifHamoudi/DDos1.git
+```
+
+```bash
+cd DDos1
+```
+
+```bash
+pip3 install -r requirements.txt
+```
+
+```bash
+python3 DDos.py
+```
+
+---
+
+📦 Installation Steps (Termux - without sudo)
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+```bash
+pkg install git -y
+```
+
+```bash
+pkg install python -y
+```
+
+```bash
+git clone https://github.com/AlmunharifHamoudi/DDos1.git
+```
+
+```bash
+cd DDos1
+```
+
+```bash
 pip install -r requirements.txt
-python ddos.py
+```
+
+```bash
+python DDos.py
+```
+
+---
+
+🚀 Quick Run Commands (All commands separately)
+
+✅ Kali Linux (with sudo):
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+```bash
+sudo apt install git -y
+```
+
+```bash
+sudo apt install python3 -y
+```
+
+```bash
+sudo apt install python3-pip -y
+```
+
+```bash
+git clone https://github.com/AlmunharifHamoudi/DDos1.git
+```
+
+```bash
+cd DDos1
+```
+
+```bash
+pip3 install -r requirements.txt
+```
+
+```bash
+python3 DDos.py
+```
+
+✅ Termux (without sudo):
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+```bash
+pkg install git -y
+```
+
+```bash
+pkg install python -y
+```
+
+```bash
+git clone https://github.com/AlmunharifHamoudi/DDos1.git
+```
+
+```bash
+cd DDos1
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python DDos.py
+```
+
+---
+
+⚠️ Important Warning
+
+Using this tool against targets without permission is illegal and may lead to legal consequences.
+It is intended solely for learning and testing on your own networks.
+
+---
+
+📝 Notes
+
+· Ensure the requirements.txt file exists inside the folder after cloning.
+· If you encounter pip errors on Kali, use pip3 instead of pip.
+
+---
+
+📬 Contact
+
+· Developer: AlmunharifHamoudi
+· Link: GitHub
+
+---
+
+Last Updated: 2026
