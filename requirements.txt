@@ -6,3 +6,4 @@ urllib3
 certifi
 charset-normalizer
 idna
+pycryptodome
