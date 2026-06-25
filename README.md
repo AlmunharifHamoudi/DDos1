@@ -1,178 +1,56 @@
-⚠️ DDOS-ATTACK ⚠️
-
-🚨 WARNING: EXTREMELY POWERFUL & DANGEROUS TOOL 🚨
-
-<div align="center">
-
-🔥 DEVELOPED BY: </> Извращенец 🔥
-
-https://img.shields.io/badge/version-3.0-red
-https://img.shields.io/badge/platform-Kali%20Linux%20%7C%20Termux-blue
-https://img.shields.io/badge/status-DANGEROUS-critical
-
-</div>
+عدل ع 
+# 🛡️ DDoS Stress Testing Tool
 
 ---
 
-📌 DISCLAIMER
+## ⚠️ DISCLAIMER
 
-THIS TOOL IS CREATED FOR EDUCATIONAL PURPOSES ONLY!
+**READ CAREFULLY**
 
-· Use this tool ONLY on your own servers/websites for testing purposes
-· The developer </> Извращенец is NOT RESPONSIBLE for any illegal or malicious use
-· Unauthorized DDoS attacks are ILLEGAL in most countries
-· You are SOLELY RESPONSIBLE for your actions
-· This is a POWERFUL tool that can cause SERIOUS DAMAGE
-
----
-
-🛠️ INSTALLATION GUIDE
-
-🔹 For Kali Linux (with sudo privileges)
-
-```bash
-$ sudo apt update && sudo apt upgrade -y
-```
-
-```bash
-$ sudo apt install git -y
-```
-
-```bash
-$ sudo apt install python3 -y
-```
-
-```bash
-$ sudo apt install python -y
-```
-
-```bash
-$ git clone https://github.com/AlmunharifHamoudi/DDos1.git
-```
-
-```bash
-$ cd DDos1
-```
-
-```bash
-$ pip install -r requirements.txt
-```
-
-```bash
-$ python3 DDos.py
-```
+> This tool was developed by **Developer </> Извращенес** for educational purposes and stress testing your own websites/servers only.
+>
+> **🔴 The developer is NOT responsible for:**
+> - Any illegal use of this tool
+> - Targeting websites or servers without explicit permission
+> - Any damages resulting from misuse
+> - Violations of your country's laws
+>
+> **🟢 YOU are solely responsible for:**
+> - Obtaining written permission before testing
+> - Complying with your local laws
+> - Any consequences of using this tool
 
 ---
 
-🔹 For Termux (Android)
+## 📌 Purpose
 
-```bash
-$ pkg update && pkg upgrade -y
-```
-
-```bash
-$ pkg install git -y
-```
-
-```bash
-$ pkg install python3 -y
-```
-
-```bash
-$ pkg install python -y
-```
-
-```bash
-$ git clone https://github.com/AlmunharifHamoudi/DDos1.git
-```
-
-```bash
-$ cd DDos1
-```
-
-```bash
-$ pip install -r requirements.txt
-```
-
-```bash
-$ python DDos.py
-```
+This tool is designed for:
+- ✅ Testing your own websites/servers for stress resistance
+- ✅ Analyzing server performance under heavy load
+- ✅ Identifying weaknesses in your infrastructure
+- ✅ Hands-on training in DDoS defense
 
 ---
 
-⚡ FEATURES
+## 🎯 Features
 
-Feature Description
-🚀 ULTRA FAST Optimized for maximum attack speed
-💥 MULTI-THREADING Uses multiple threads for powerful attacks
-🎯 PRECISE TARGETING Accurate IP and port targeting
-🔄 AUTO-RECOVERY Self-healing connection system
-🛡️ BYpass Protections Advanced techniques to bypass basic security
-📊 REAL-TIME STATS Live attack statistics display
-🌐 PROXY SUPPORT Optional proxy rotation support
+| Feature | Description |
+|---------|-------------|
+| 🚀 Multiple Attacks | SYN, UDP, HTTP, ICMP, Slowloris |
+| ⚡ High Performance | Multithreading support |
+| 📱 Cross-platform | Linux, Windows, Termux |
+| 🎨 Colored UI | Real-time statistics display |
+| 🔒 Secure | Packet encryption (optional) |
 
 ---
 
-📝 USAGE
+## 📦 Installation
 
-After installation, simply run:
-
+### Termux:
 ```bash
-$ python DDos.py
-```
-
-Follow the interactive prompts to configure your attack parameters.
-
----
-
-⚙️ REQUIREMENTS
-
-· Python 3.x
-· Active internet connection
-· Required Python packages (auto-installed via requirements.txt)
-· Root/Administrator privileges (recommended for best performance)
-
----
-
-⚠️ LEGAL NOTICE
-
-<div align="center">
-
-🛑 USE AT YOUR OWN RISK! 🛑
-
-The developer is NOT responsible for:
-
-· Illegal activities
-· Damage to websites/servers
-· Legal consequences
-· Any misuse of this tool
-
-By using this tool, you agree that:
-
-· You will only use it on your own property
-· You understand the legal implications
-· You accept full responsibility for your actions
-
-</div>
-
----
-
-📞 CONTACT
-
-· Developer: </> Извращенец
-· GitHub: AlmunharifHamoudi
-· Repository: DDos1
-
----
-
-<div align="center">
-
-⭐ STAR THIS REPO IF YOU FIND IT USEFUL FOR EDUCATIONAL PURPOSES ⭐
-
-🔒 STAY SAFE, STAY LEGAL, STAY RESPONSIBLE 🔒
-
-</div>
-
----
-
-Last Updated: 2026
+pkg update && pkg upgrade
+pkg install python git
+git clone https://github.com/izvrashchenets/ddos-tool.git
+cd ddos-tool
+pip install -r requirements.txt
+python ddos.py
