@@ -1,7 +1,6 @@
 
 # 🛡️ DDoS Stress Testing Tool
 
-![Screenshot-2026-06-25-10-36-33.png](https://i.postimg.cc/SQG6y9s0/Screenshot-2026-06-25-10-36-33.png)
 
 ![Picsart-26-06-25-17-43-57-802.png](https://i.postimg.cc/1RMFxZWB/Picsart-26-06-25-17-43-57-802.png)
 
@@ -35,6 +34,9 @@ This tool is designed for:
 - ✅ Hands-on training in DDoS defense
 
 ---
+
+[![Screenshot-2026-06-25-10-36-33.png](https://i.postimg.cc/SQG6y9s0/Screenshot-2026-06-25-10-36-33.png)](https://postimg.cc/s1vQmv7K)
+
 
 ## 🎯 Features
 
