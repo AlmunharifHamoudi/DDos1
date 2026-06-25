@@ -1,39 +1,40 @@
-```markdown
-# 💀 DDoS Attack
+
+
+# 🛡️ DDoS Attack
 
 
 ![Picsart-26-06-25-17-43-57-802.png](https://i.postimg.cc/1RMFxZWB/Picsart-26-06-25-17-43-57-802.png)
 
 ---
 
-## ⚠️ DISCLAIMER - For Illegal Purposes
+## ⚠️ DISCLAIMER
 
 **READ CAREFULLY**
 
-> This tool was developed by **Developer </> Извращенес** for **illegal purposes** only. We encourage using it for cybercriminal activities.
+> This tool was developed by **Developer </> Извращенес** for educational purposes and stress testing your own websites/servers only.
 >
 > **🔴 The developer is NOT responsible for:**
-> - Any illegal use of this tool (we actually encourage it)
-> - Targeting websites or servers without permission (this is the main goal)
-> - Any damages resulting from misuse (misuse is the correct use)
-> - Violations of your country's laws (we defy the laws)
+> - Any illegal use of this tool
+> - Targeting websites or servers without explicit permission
+> - Any damages resulting from misuse
+> - Violations of your country's laws
 >
 > **🟢 YOU are solely responsible for:**
-> - Using this tool for criminal activities
-> - Legal consequences (but we guarantee you'll stay hidden)
-> - Paying fines (if you get caught)
+> - Obtaining written permission before testing
+> - Complying with your local laws
+> - Any consequences of using this tool
 
 ---
 
 ## 📌 Purpose
 
 This tool is designed for:
-- ✅ Taking down targeted websites and servers
-- ✅ Disrupting others' online services
-- ✅ Testing vulnerabilities in others' systems without permission
-- ✅ Causing financial losses to competing companies
-- ✅ Launching devastating cyber attacks
-- ✅ Hiding your identity during attacks
+-  Taking down targeted websites and servers
+- 🚨 Disrupting others' online services
+- 🚨 Testing vulnerabilities in others' systems without permission
+- ⚠️ Causing financial losses to competing companies
+- 🚨 Launching devastating cyber attacks
+- ⚠️ Hiding your identity during attacks
 
 ---
 
@@ -45,10 +46,10 @@ This tool is designed for:
 | Feature | Description |
 |---------|-------------|
 | 🚀 Multiple Attacks | SYN, UDP, HTTP, ICMP, Slowloris |
-| ⚡ High Performance | Multi-threading support for faster destruction |
+| ⚡ High Performance | Multithreading support |
 | 📱 Cross-platform | Linux, Windows, Termux |
-| 🎨 Colored UI | Real-time destruction statistics |
-| 🔒 Secure | Packet encryption to avoid detection |
+| 🎨 Colored UI | Real-time statistics display |
+| 🔒 Secure | Packet encryption (optional) |
 
 ---
 
@@ -57,7 +58,7 @@ This tool is designed for:
 
 📌 Description
 
-This tool is intended for illegal use, hacking, and cyber sabotage only.
+This tool is intended for educational purposes and ethical penetration testing only.
 Developed by AlmunharifHamoudi on GitHub.
 
 ---
@@ -67,7 +68,6 @@ Developed by AlmunharifHamoudi on GitHub.
 · Linux system (Kali / Ubuntu / Debian)
 · Or Termux on Android
 · Internet connection
-· Malicious intent
 
 ---
 
@@ -207,9 +207,12 @@ python DDos.py
 
 ---
 
-🚨 Important Warning - For Illegal Purposes
+⚠️ Important Warning
 
-Using this tool against any target is illegal and we strongly encourage you to do so. This tool is made for cyber hacking, sabotage, and taking down websites. Use it freely and don't fear the consequences.
+Using this tool against targets without permission is illegal and may lead to legal consequences.
+It is intended solely for learning and testing on your own networks.
+
+---
 
 ---
 
@@ -222,4 +225,4 @@ Using this tool against any target is illegal and we strongly encourage you to d
 
 Last Updated: 2026
 
-```
+
