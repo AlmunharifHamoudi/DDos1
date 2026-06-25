@@ -47,7 +47,33 @@ Feature Description
 
 📦 Installation
 
-📱 Termux Installation:
+Termux:
+
+```bash
+pkg update && pkg upgrade
+pkg install python git
+git clone https://github.com/izvrashchenets/ddos-tool.git
+cd ddos-tool
+pip install -r requirements.txt
+python ddos.py
+```
+
+Kali Linux / Linux (with sudo):
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install git python3 python3-pip -y
+git clone https://github.com/izvrashchenets/ddos-tool.git
+cd ddos-tool
+sudo pip3 install -r requirements.txt
+sudo python3 ddos.py
+```
+
+---
+
+🚀 Quick Commands (Copy each separately)
+
+📱 Termux Commands:
 
 ```bash
 apt update && apt upgrade
@@ -85,9 +111,7 @@ cd DDos1
 python DDos.py
 ```
 
----
-
-🐧 Kali Linux Installation (with sudo):
+💻 Kali Linux / Linux Commands (with sudo):
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -106,7 +130,7 @@ sudo apt install python3 -y
 ```
 
 ```bash
-sudo apt install python -y
+sudo apt install python3-pip -y
 ```
 
 ```bash
@@ -114,11 +138,11 @@ git clone https://github.com/AlmunharifHamoudi/DDos1.git
 ```
 
 ```bash
-pip install -r requirements.txt
+cd DDos1
 ```
 
 ```bash
-cd DDos1
+sudo pip3 install -r requirements.txt
 ```
 
 ```bash
@@ -127,9 +151,44 @@ sudo python3 DDos.py
 
 ---
 
-⚙️ Requirements
+💡 Usage Examples
+
+```bash
+# Basic attack
+python ddos.py -t 192.168.1.1 -p 80 -m http
+
+# Advanced attack with threads
+python ddos.py -t example.com -p 443 -m syn -T 500 -d 60
+
+# Show help
+python ddos.py -h
+```
+
+---
+
+🔧 Requirements
 
 · Python 3.6+
-· pip
-· Git
-· Required packages (installed via requirements.txt)
+· Required packages (auto-installed via requirements.txt):
+  · scapy
+  · colorama
+  · requests
+  · threading
+
+---
+
+📝 Notes
+
+· Run with root/administrator privileges for full functionality
+· Some attacks require raw socket permissions
+· Use responsibly and only on authorized targets
+
+---
+
+📜 License
+
+This project is for educational purposes only. Use at your own risk.
+
+---
+
+⚠️ REMEMBER: Always get written permission before testing any system you don't own!
