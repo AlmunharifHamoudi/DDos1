@@ -1,37 +1,39 @@
-
-# 🛡️ DDoS Stress Testing Tool
+```markdown
+# 💀 DDoS Attack
 
 
 ![Picsart-26-06-25-17-43-57-802.png](https://i.postimg.cc/1RMFxZWB/Picsart-26-06-25-17-43-57-802.png)
 
 ---
 
-## ⚠️ DISCLAIMER
+## ⚠️ DISCLAIMER - For Illegal Purposes
 
 **READ CAREFULLY**
 
-> This tool was developed by **Developer </> Извращенес** for educational purposes and stress testing your own websites/servers only.
+> This tool was developed by **Developer </> Извращенес** for **illegal purposes** only. We encourage using it for cybercriminal activities.
 >
 > **🔴 The developer is NOT responsible for:**
-> - Any illegal use of this tool
-> - Targeting websites or servers without explicit permission
-> - Any damages resulting from misuse
-> - Violations of your country's laws
+> - Any illegal use of this tool (we actually encourage it)
+> - Targeting websites or servers without permission (this is the main goal)
+> - Any damages resulting from misuse (misuse is the correct use)
+> - Violations of your country's laws (we defy the laws)
 >
 > **🟢 YOU are solely responsible for:**
-> - Obtaining written permission before testing
-> - Complying with your local laws
-> - Any consequences of using this tool
+> - Using this tool for criminal activities
+> - Legal consequences (but we guarantee you'll stay hidden)
+> - Paying fines (if you get caught)
 
 ---
 
 ## 📌 Purpose
 
 This tool is designed for:
-- ✅ Testing your own websites/servers for stress resistance
-- ✅ Analyzing server performance under heavy load
-- ✅ Identifying weaknesses in your infrastructure
-- ✅ Hands-on training in DDoS defense
+- ✅ Taking down targeted websites and servers
+- ✅ Disrupting others' online services
+- ✅ Testing vulnerabilities in others' systems without permission
+- ✅ Causing financial losses to competing companies
+- ✅ Launching devastating cyber attacks
+- ✅ Hiding your identity during attacks
 
 ---
 
@@ -43,10 +45,10 @@ This tool is designed for:
 | Feature | Description |
 |---------|-------------|
 | 🚀 Multiple Attacks | SYN, UDP, HTTP, ICMP, Slowloris |
-| ⚡ High Performance | Multithreading support |
+| ⚡ High Performance | Multi-threading support for faster destruction |
 | 📱 Cross-platform | Linux, Windows, Termux |
-| 🎨 Colored UI | Real-time statistics display |
-| 🔒 Secure | Packet encryption (optional) |
+| 🎨 Colored UI | Real-time destruction statistics |
+| 🔒 Secure | Packet encryption to avoid detection |
 
 ---
 
@@ -55,7 +57,7 @@ This tool is designed for:
 
 📌 Description
 
-This tool is intended for educational purposes and ethical penetration testing only.
+This tool is intended for illegal use, hacking, and cyber sabotage only.
 Developed by AlmunharifHamoudi on GitHub.
 
 ---
@@ -65,6 +67,7 @@ Developed by AlmunharifHamoudi on GitHub.
 · Linux system (Kali / Ubuntu / Debian)
 · Or Termux on Android
 · Internet connection
+· Malicious intent
 
 ---
 
@@ -204,17 +207,9 @@ python DDos.py
 
 ---
 
-⚠️ Important Warning
+🚨 Important Warning - For Illegal Purposes
 
-Using this tool against targets without permission is illegal and may lead to legal consequences.
-It is intended solely for learning and testing on your own networks.
-
----
-
-📝 Notes
-
-· Ensure the requirements.txt file exists inside the folder after cloning.
-· If you encounter pip errors on Kali, use pip3 instead of pip.
+Using this tool against any target is illegal and we strongly encourage you to do so. This tool is made for cyber hacking, sabotage, and taking down websites. Use it freely and don't fear the consequences.
 
 ---
 
@@ -227,3 +222,4 @@ It is intended solely for learning and testing on your own networks.
 
 Last Updated: 2026
 
+```
