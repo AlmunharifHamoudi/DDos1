@@ -1,12 +1,8 @@
 🛡️ DDoS Stress Testing Tool
 
-<p align="center">
-  <img src="images/m.png" alt="DDos1 Logo" width="200">
-</p>
+https://i.postimg.cc/SQG6y9s0/Screenshot-2026-06-25-10-36-33.png
 
-<p align="center">
-  <img src="images/m1.png" alt="DDos1 Interface" width="600">
-</p>
+https://i.postimg.cc/1RMFxZWB/Picsart-26-06-25-17-43-57-802.png
 
 ---
 
@@ -206,22 +202,6 @@ python DDos.py
 
 ---
 
-🔧 Installing Dependencies Manually (Kali Linux Only)
-
-```bash
-pip install --break-system-packages requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
-```
-
----
-
-🔧 Installing Dependencies Manually (Termux)
-
-```bash
-pip install requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
-```
-
----
-
 ⚠️ Important Warning
 
 Using this tool against targets without permission is illegal and may lead to legal consequences.
@@ -231,9 +211,8 @@ It is intended solely for learning and testing on your own networks.
 
 📝 Notes
 
-· Ensure the images (m.png and m1.png) are inside the images/ folder.
-· If images don't appear, check that the folder name is exactly images and files exist.
-· For Kali Linux, always use the --break-system-packages flag to bypass restrictions.
+· Ensure the requirements.txt file exists inside the folder after cloning.
+· If you encounter pip errors on Kali, use pip3 instead of pip.
 
 ---
 
@@ -241,10 +220,6 @@ It is intended solely for learning and testing on your own networks.
 
 · Developer: AlmunharifHamoudi
 · Link: GitHub
-
----
-
-⭐ Star the repository if you found it useful!
 
 ---
 
