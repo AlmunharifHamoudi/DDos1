@@ -1,96 +1,55 @@
-Here's a professional yet edgy README.md for your DDoS tool, written in English as requested:
-
-```markdown
-# ⚡ DDoS-1 — The Shadow Hammer ⚡
-
-> *"For stress-testing your own infrastructure. Nothing more, nothing less."*
-
-![Version](https://img.shields.io/badge/version-1.0.0-darkred?style=for-the-badge)
-![Platform](https://img.shields.io/badge/platform-Kali%20Linux%20%7C%20Termux-black?style=for-the-badge)
-![Language](https://img.shields.io/badge/code-python3-blue?style=for-the-badge)
-![Author](https://img.shields.io/badge/dev-/>%20Извращенец-purple?style=for-the-badge)
+🛡️ DDoS Stress Testing Tool
 
 ---
 
-## 🔥 DISCLAIMER — READ CAREFULLY
+⚠️ DISCLAIMER
 
-> **This tool was developed by `/> Извращенец` for AUTHORIZED SECURITY TESTING PURPOSES ONLY.**
->
-> **⚠️ THE DEVELOPER ASSUMES ZERO LIABILITY FOR ANY MISUSE, DAMAGE, OR ILLEGAL ACTIVITIES CONDUCTED WITH THIS SOFTWARE.**
->
-> **You are SOLELY responsible for your actions. Only test systems you OWN or have EXPLICIT written permission to test. Unauthorized use is a CRIMINAL OFFENSE in most jurisdictions.**
->
-> **By using this tool, you acknowledge that you understand the risks and legal consequences. This is an extremely powerful weapon — wield it wisely.**
+READ CAREFULLY
 
----
+This tool was developed by Developer </> Извращенес for educational purposes and stress testing your own websites/servers only.
 
-## 💀 ABOUT
+🔴 The developer is NOT responsible for:
 
-**DDoS-1** is a brutally powerful, high-performance stress-testing utility crafted for penetration testers and system administrators. It's designed to simulate devastating volumetric attacks so you can harden your infrastructure against real-world threats.
+· Any illegal use of this tool
+· Targeting websites or servers without explicit permission
+· Any damages resulting from misuse
+· Violations of your country's laws
 
-This is **not** a toy. This is a surgical instrument for network resilience testing.
+🟢 YOU are solely responsible for:
 
----
-
-## ⚙️ FEATURES
-
-- 🚀 **Multi-vector attack surface** — Layer 4 & Layer 7 capable
-- 🔥 **Extremely aggressive packet flooding**
-- 🧠 **Smart threading engine** — maximizes throughput
-- 📡 **Low resource footprint** — runs efficiently even on Termux
-- 🎯 **Precision targeting** — IP, port, and protocol specific
-- 🛡️ **Bypass techniques** — tests modern mitigation effectiveness
-- 💻 **Cross-platform** — Kali Linux & Android Termux (rooted/rootless)
+· Obtaining written permission before testing
+· Complying with your local laws
+· Any consequences of using this tool
 
 ---
 
-## 📦 INSTALLATION
+📌 Purpose
 
-### 🐉 Kali Linux (with sudo privileges)
+This tool is designed for:
 
-Copy each command **one by one**:
-
-```bash
-sudo apt update && sudo apt upgrade
-```
-
-```bash
-sudo apt install git -y
-```
-
-```bash
-sudo apt update
-```
-
-```bash
-sudo apt install python3 -y
-```
-
-```bash
-sudo apt install python -y
-```
-
-```bash
-git clone https://github.com/AlmunharifHamoudi/DDos1.git
-```
-
-```bash
-pip install -r requirements.txt
-```
-
-```bash
-cd DDos1
-```
-
-```bash
-python DDos.py
-```
+· ✅ Testing your own websites/servers for stress resistance
+· ✅ Analyzing server performance under heavy load
+· ✅ Identifying weaknesses in your infrastructure
+· ✅ Hands-on training in DDoS defense
 
 ---
 
-📱 Termux (Android)
+🎯 Features
 
-Copy each command one by one:
+Feature Description
+🚀 Multiple Attacks SYN, UDP, HTTP, ICMP, Slowloris
+⚡ High Performance Multithreading support
+📱 Cross-platform Linux, Windows, Termux
+🎨 Colored UI Real-time statistics display
+🔒 Secure Packet encryption (optional)
+
+---
+
+📦 Installation
+
+Termux Installation Commands:
+
+Copy and run each command one by one:
 
 ```bash
 apt update && apt upgrade
@@ -117,11 +76,11 @@ git clone https://github.com/AlmunharifHamoudi/DDos1.git
 ```
 
 ```bash
-pip install -r requirements.txt
+cd DDos1
 ```
 
 ```bash
-cd DDos1
+pip install -r requirements.txt
 ```
 
 ```bash
@@ -130,60 +89,111 @@ python DDos.py
 
 ---
 
-🎮 USAGE
+🚀 Usage
 
-Once launched, follow the on-screen interface. The tool will prompt you for:
+Interactive Mode:
 
-· Target IP / URL
-· Port number
-· Attack intensity / thread count
-· Duration of the test
+```bash
+python DDos.py
+```
 
-Pro tip: Start with low thread counts to benchmark, then scale up gradually.
+Command Line:
 
----
+```bash
+python DDos.py --target <IP/DOMAIN> --port <PORT> --method <METHOD> --time <SECONDS>
+```
 
-🧪 WHEN TO USE
+Parameters:
 
-· ✅ Testing YOUR OWN servers
-· ✅ Authorized penetration testing engagements
-· ✅ Evaluating DDoS mitigation solutions
-· ✅ Academic research in controlled environments
-· ❌ Anything else is illegal and not endorsed
+```
+-t, --target   : Target IP or Domain
+-p, --port     : Port number (default: 80)
+-m, --method   : Attack method (syn, udp, http, icmp, slow)
+-t, --time     : Duration in seconds
+-th, --threads : Number of threads (default: 100)
+```
 
----
+Examples:
 
-⚠️ LEGAL WARNING — FINAL NOTICE
+```bash
+python DDos.py -t example.com -p 443 -m syn -t 60
+```
 
-Scenario Status
-Testing your own server ✅ Allowed
-Testing with written permission ✅ Allowed
-Testing without authorization ❌ ILLEGAL
-Attacking public services ❌ CRIMINAL
-Using for revenge/harassment ❌ PROSECUTABLE
+```bash
+python DDos.py -t 192.168.1.1 -p 53 -m udp -th 500 -t 30
+```
 
-The developer, /> Извращенец, is NOT responsible for your actions. Period.
-
----
-
-🤝 CONTRIBUTING
-
-Pull requests for performance improvements are welcome. No malicious feature requests will be entertained.
-
----
-
-📜 LICENSE
-
-This project is licensed under the MIT License — see the LICENSE file for details, with the explicit understanding that lawful use is mandatory.
-
----
-
-<p align="center">
-  <strong>⚡ Crafted with raw power by <code>/> Извращенец</code> ⚡</strong><br>
-  <sub>Use responsibly. The line between security testing and cybercrime is thin.</sub>
-</p>
+```bash
+python DDos.py -t mysite.com -p 80 -m http -t 120
 ```
 
 ---
 
-Let me know if you want any modifications, like a different tone, additional sections, or translated parts!
+📊 Interface Preview
+
+```
+╔═══════════════════════════════════════╗
+║   💀 DDoS Stress Tester v2.1         ║
+║   🛡️ By: Извращенес                 ║
+╠═══════════════════════════════════════╣
+║   Target: example.com                 ║
+║   Port: 80                            ║
+║   Method: SYN Flood                   ║
+║   Threads: 150                        ║
+║   Time: 60s                           ║
+╠═══════════════════════════════════════╣
+║   📊 Packets Sent: 1,245,789         ║
+║   ⚡ Speed: 24.5K/s                  ║
+║   📈 Success: 99.8%                  ║
+║   ⏱️ Time Left: 45s                  ║
+╚═══════════════════════════════════════╝
+```
+
+---
+
+🔧 Requirements
+
+```
+Python 3.7+
+scapy
+socket
+threading
+requests
+colorama
+```
+
+Install requirements manually if needed:
+
+```bash
+pip install scapy requests colorama termcolor
+```
+
+---
+
+🛑 Final Warning
+
+```
+⚠️ THIS TOOL IS A DOUBLE-EDGED SWORD ⚠️
+
+Use it wisely and only within legal frameworks.
+Developer Извращенес states its purpose is:
+"EDUCATION AND TESTING YOUR OWN SITES, NOT DESTRUCTION"
+
+🔐 Use responsibly!
+```
+
+---
+
+📝 License
+
+This tool is for educational purposes only. Unauthorized use is prohibited.
+
+---
+
+📞 Contact
+
+· GitHub: github.com/AlmunharifHamoudi
+
+---
+
+Remember: With great power comes great responsibility! 🕸️
