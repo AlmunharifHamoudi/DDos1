@@ -1,0 +1,8 @@
+requests
+httpx
+aiohttp
+colorama
+urllib3
+certifi
+charset-normalizer
+idna
