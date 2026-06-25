@@ -1,7 +1,11 @@
 🛡️ DDoS Stress Testing Tool
 
 <p align="center">
-  <img src="images/1000440659.jpg" alt="DDos1 Repository" width="600">
+  <img src="images/m.png" alt="DDos1 Logo" width="200">
+</p>
+
+<p align="center">
+  <img src="images/m1.png" alt="DDos1 Interface" width="600">
 </p>
 
 ---
@@ -93,7 +97,7 @@ cd DDos1
 ```
 
 ```bash
-pip3 install -r requirements.txt
+pip install --break-system-packages requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
 ```
 
 ```bash
@@ -125,7 +129,7 @@ cd DDos1
 ```
 
 ```bash
-pip install -r requirements.txt
+pip install requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
 ```
 
 ```bash
@@ -163,7 +167,7 @@ cd DDos1
 ```
 
 ```bash
-pip3 install -r requirements.txt
+pip install --break-system-packages requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
 ```
 
 ```bash
@@ -193,7 +197,7 @@ cd DDos1
 ```
 
 ```bash
-pip install -r requirements.txt
+pip install requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
 ```
 
 ```bash
@@ -202,15 +206,7 @@ python DDos.py
 
 ---
 
-🔧 Installing Dependencies Manually (Kali Linux)
-
-If you encounter issues with requirements.txt, install libraries directly:
-
-```bash
-pip3 install requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
-```
-
-Or use the bypass flag:
+🔧 Installing Dependencies Manually (Kali Linux Only)
 
 ```bash
 pip install --break-system-packages requests httpx aiohttp colorama urllib3 certifi charset-normalizer idna pycryptodome
@@ -235,8 +231,9 @@ It is intended solely for learning and testing on your own networks.
 
 📝 Notes
 
-· Ensure the requirements.txt file exists inside the folder after cloning.
-· If you encounter pip errors on Kali, use pip3 instead of pip.
+· Ensure the images (m.png and m1.png) are inside the images/ folder.
+· If images don't appear, check that the folder name is exactly images and files exist.
+· For Kali Linux, always use the --break-system-packages flag to bypass restrictions.
 
 ---
 
